@@ -5,9 +5,11 @@
 		private int year;
 		public Date()
 		{
+			
 			Day=12;
 			month="Jan";
 			year=2001;
+			//push
 		}
 		public Date(int Day1,String month1,int year1)
 		{
