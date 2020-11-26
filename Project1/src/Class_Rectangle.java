@@ -50,6 +50,7 @@ public class Class_Rectangle extends Class_Shape
 			Perimeter=2*(length+width);
 			return Perimeter;
 	 	}
+		//new change
 	 	public String toString() 
 	 	{
 	 			return "A Rectangle with width= "+width+" and length= "+length+" ,which is a subclass of A Shape with color of "+Shape.getColor_Method()+" and filled"+Shape.isFilled_Method();
